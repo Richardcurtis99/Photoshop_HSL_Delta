@@ -1,5 +1,5 @@
 unzip photoshop-hsl-delta.zip
-name: HSL Delta API
+name: main
 
 on:
   workflow_dispatch:
