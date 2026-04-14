@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       reference:
-        description: 'Input hex colour (e.g. #2d308b)'
+        description: 'Input Reference hex colour (e.g. #2d308b)'
         required: true
         type: string
       target:
-        description: 'Output hex colour (e.g. #e1aacb)'
+        description: 'Output Target hex colour (e.g. #e1aacb)'
         required: true
         type: string
 
