@@ -1,4 +1,3 @@
-unzip photoshop-hsl-delta.zip
 name: HSL Delta API
 
 on:
