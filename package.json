@@ -1,0 +1,14 @@
+{
+  "name": "photoshop-hsl-delta",
+  "version": "1.0.0",
+  "description": "Calculate Photoshop HSL offsets between two hex colours, with a GitHub Gist API wrapper.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/photoshopHslDelta.test.js"
+  },
+  "keywords": ["photoshop", "hsl", "colour", "hex", "delta", "github", "gist"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
