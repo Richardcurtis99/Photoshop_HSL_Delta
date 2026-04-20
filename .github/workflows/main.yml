@@ -33,3 +33,11 @@ jobs:
         with:
           name: hsl-delta-result
           path: output.txt
+          
+      - name: Save output
+        run: echo "my result" > output.txt
+        
+      - uses: actions/upload-artifact@v3
+        with:
+          name: result
+          path: output.txt
