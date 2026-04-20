@@ -26,7 +26,7 @@ jobs:
             const { photoshopHslDelta } = require('./index');
             const delta = photoshopHslDelta('${{ inputs.reference }}', '${{ inputs.target }}');
             console.log('RESULT=' + JSON.stringify(delta));
-          " | tee output.txt
+          " > output.txt
 
       - name: Upload result artifact
         uses: actions/upload-artifact@v4
@@ -35,7 +35,7 @@ jobs:
           path: output.txt
           
       - name: Save output
-        run: echo "my result" > output.txt
+        run: echo output.txt
         
       - uses: actions/upload-artifact@v4
         with:
